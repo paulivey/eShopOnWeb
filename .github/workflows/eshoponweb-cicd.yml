@@ -1,7 +1,14 @@
 name: eShopOnWeb CI/CD
 
 # Triggers
-on: [push, workflow_dispatch]
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/Web/**"
+      
+  workflow_dispatch:
 
 # Environment variables
 env:
