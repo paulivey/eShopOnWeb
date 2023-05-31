@@ -2,6 +2,11 @@ name: eShopOnWeb CI/CD
 
 # Triggers
 on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "src/Web/**"
   push:
     branches:
       - main
