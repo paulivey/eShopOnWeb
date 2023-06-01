@@ -11,6 +11,10 @@
         "INSTALL_AZURE_CLI": "false"
         }
     },
+    // Terrascan for AZ-400 demo
+	"features": {
+	    "ghcr.io/devcontainers-contrib/features/terrascan:1": {}
+	},
 
 	// Comment out to connect as root user. See https://aka.ms/vscode-remote/containers/non-root.
 	// make sure this is the same as USERNAME above
